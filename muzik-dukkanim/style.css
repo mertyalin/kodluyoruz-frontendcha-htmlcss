@@ -4,36 +4,50 @@
     box-sizing: border-box;
 }
 h1{
-    color:rgb(54, 5, 5);
+    color:rgb(219, 17, 17);
+    font-style: oblique;
+    font-size: 80px;
     text-align: center;
-    margin: 15px 0;
+    margin: 20px 0;
+    text-shadow: 2px 2px 3px #000;
 }
 ul{
     display: flex;
     justify-content: center;
-  list-style: none;
-}
+    list-style: none;
+    }
 li{
-    padding: 10px;
+    padding: 15px;
     
 }
 a{
-    color:#111;
+    color:rgb(51, 10, 199);
 }
 h2{
-    color:rgb(49, 206, 35);
+    font-size: 35px;
+    font-style: italic;
+    color:rgb(15, 95, 7);
     text-align: center;
+}
+h3{
+    font-size: 20px;
+    color: rgb(123, 8, 230);
 }
 p{
     text-align: center;
+    font-weight: 500;
     margin: 5px ;
 }
-.aletler{
-    display:flex;
-    justify-content: center;
-}
+
 img{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid #555;
   
+}
+
+.sayfa-basi {
+    text-align: left;
+    font-weight:bold;
+
 }
